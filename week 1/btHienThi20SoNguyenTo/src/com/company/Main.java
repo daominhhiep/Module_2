@@ -1,38 +1,27 @@
-package com.company;
-
+package DisplayPrime;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Nhap so luong so nguyen to can hien: ");
-        int number = scan.nextInt();
-        showPrime(number);
-    }
-
-    public static boolean isPrime(int number) {
-        boolean result = true;
-        if (number < 2) {
-            result = false;
-        }
-        for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
-                result = false;
-                break;
-            }
-        }
-        return result;
-    }
-
-    public static void showPrime(int number) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Nhập vào số lượng số muốn hiển thị: ");
+        int number = input.nextInt();
         int count = 0;
-        int i = 0;
-        while (count < number) {
-            if (isPrime(i)) {
-                System.out.print(i + " ");
+        int N = 2;
+        while (count < number){
+            int i = 2;
+            boolean check = true;
+            while (i <= Math.sqrt(N)){
+                if (N%i == 0){
+                    check = false;
+                    break;
+                }
+                i++;
+            }
+            if (check){
+                System.out.println(N);
                 count++;
             }
-            i++;
+            N++;
         }
     }
 }
