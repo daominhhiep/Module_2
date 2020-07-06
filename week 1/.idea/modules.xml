@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SystemTime/SystemTime.iml" filepath="$PROJECT_DIR$/SystemTime/SystemTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/btHienThiLoiChao/btHienThiLoiChao.iml" filepath="$PROJECT_DIR$/btHienThiLoiChao/btHienThiLoiChao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thKiemTraNamNhuan/thKiemTraNamNhuan.iml" filepath="$PROJECT_DIR$/thKiemTraNamNhuan/thKiemTraNamNhuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thKiemTraSoNguyenTo/thKiemTraSoNguyenTo.iml" filepath="$PROJECT_DIR$/thKiemTraSoNguyenTo/thKiemTraSoNguyenTo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thPTBac1/thPTBac1.iml" filepath="$PROJECT_DIR$/thPTBac1/thPTBac1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thTinhChiSoCanNang/thTinhChiSoCanNang.iml" filepath="$PROJECT_DIR$/thTinhChiSoCanNang/thTinhChiSoCanNang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thTinhSoNgayTrongThang/thTinhSoNgayTrongThang.iml" filepath="$PROJECT_DIR$/thTinhSoNgayTrongThang/thTinhSoNgayTrongThang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thToanTu/thToanTu.iml" filepath="$PROJECT_DIR$/thToanTu/thToanTu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thUngDungTinhTienLai/thUngDungTinhTienLai.iml" filepath="$PROJECT_DIR$/thUngDungTinhTienLai/thUngDungTinhTienLai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/week 1.iml" filepath="$PROJECT_DIR$/.idea/week 1.iml" />
+    </modules>
+  </component>
+</project>
